@@ -4,6 +4,7 @@ body {
 	font-size: 0.875rem;
 	background: #f8f9fa;
 }
+
 /* ----------------------- */
 .wrapper {
 	min-height: 100%;
@@ -11,6 +12,7 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
 /* ----------------------- */
 [class*='__container'] {
 	max-width: 83.125rem;
@@ -18,10 +20,12 @@ body {
 	padding-right: 0.9375rem;
 	margin: 0 auto;
 }
+
 /* ----------------------- */
 main {
 	flex: 1 1 auto;
 }
+
 /* ----------------------- */
 .category {
 	background: rgba(255, 255, 255, 0.15);
@@ -36,19 +40,51 @@ main {
 	text-transform: uppercase;
 	transition: all 0.3s;
 }
+
 .category:hover {
 	background: rgba(255, 255, 255, 0.5);
 }
+
 /* ----------------------- */
 .title {
 	font-weight: 700;
 	font-size: 2.25rem;
 	line-height: 127.777778%;
 	color: #fff;
-	text-shadow: 2px 2px 20px #343434, 5px 5px 5px #000000;
+	/* text-shadow: 2px 2px 20px #343434, 5px 5px 5px #000000; */
 }
+
+.title_dark {
+	color: #495057;
+}
+
 /* ----------------------- */
 .text {
 	font-size: 0.75rem;
 	line-height: 166.666667%;
+}
+
+.home__big-post {
+}
+.big-post {
+}
+.big-post__container {
+}
+.big-post__category {
+}
+.category {
+}
+.big-post__title {
+}
+.title {
+}
+.big-post__link-title {
+}
+.big-post__text {
+}
+.text {
+}
+.big-post__author {
+}
+.big-post__bg {
 }

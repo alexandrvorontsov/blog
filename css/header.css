@@ -8,6 +8,7 @@
 	/* размытие box-shadow, filter:drop-shadow,filter: blur*/
 	/* filter: blur(1px); */
 }
+
 .header__logo {
 	filter: drop-shadow(10px);
 }
@@ -38,6 +39,7 @@
 	line-height: 1.5;
 	position: relative;
 }
+
 .menu__link::after {
 	content: '';
 	position: absolute;
@@ -48,6 +50,7 @@
 	transition: all 0.3s;
 	background-color: #d4a373;
 }
+
 .menu__link.active::after,
 .menu__link:hover::after {
 	width: 100%;
