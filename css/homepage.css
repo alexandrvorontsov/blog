@@ -6,6 +6,8 @@
 .home__main-slider {}
 
 .home__popular {}
+.home__big-post {
+}
 
 @media (max-width: 991.98px) {
 	.home__sections {
