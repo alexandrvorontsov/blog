@@ -1,5 +1,3 @@
-.article__big-post {}
-
 .article__content {
     padding: 6.25rem 0;
 }
@@ -72,10 +70,6 @@
     background-color: #e5e5e5;
 
 }
-
-.category {}
-
-.article__author {}
 
 .author {
     display: flex;

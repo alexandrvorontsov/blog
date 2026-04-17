@@ -3,12 +3,6 @@
 	gap: 6.25rem;
 }
 
-.home__main-slider {}
-
-.home__popular {}
-.home__big-post {
-}
-
 @media (max-width: 991.98px) {
 	.home__sections {
 		gap: 4.375rem;
@@ -60,8 +54,6 @@
 	padding-bottom: 8.75rem;
 }
 
-/* .main-slider__category {
-} */
 .main-slider__title {
 	max-width: 33.125rem;
 }
@@ -90,9 +82,6 @@
 .main-slider__text {
 	max-width: 26.25rem;
 }
-
-/* .main-slider__bullets {
-} */
 
 .bullets {
 	position: relative;
@@ -156,11 +145,6 @@
 
 /* --------------- */
 
-
-.popular {}
-
-.popular__container {}
-
 .popular__header {
 	display: flex;
 	justify-content: space-between;
@@ -168,12 +152,6 @@
 	gap: .9375rem;
 	margin-bottom: 2.8125rem;
 }
-
-.popular__title {}
-
-
-
-.popular__nav {}
 
 .nav-popular {
 	display: flex;
@@ -210,8 +188,6 @@
 	left: 0;
 }
 
-.popular__content {}
-
 .popular__tab {
 	display: none;
 }
@@ -226,8 +202,6 @@
 	column-gap: 1.25rem;
 	row-gap: 3.125rem;
 }
-
-.popular__item {}
 
 .item-popular {
 	display: grid;
@@ -278,8 +252,6 @@
 	line-height: 138.8889%;
 	/* 25/18 */
 }
-
-.item-popular__link-title {}
 
 .item-popular__link-title:hover {
 	text-decoration: underline;

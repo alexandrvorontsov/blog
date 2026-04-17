@@ -16,8 +16,6 @@
 	font-weight: 700;
 }
 
-.footer__up {}
-
 .footer__up:hover {
 	text-decoration: underline;
 }
